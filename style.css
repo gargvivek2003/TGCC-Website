@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;800&display=swap");
+@import url(parralax.css);
+
+body{
+    margin:0;
+    overflow-x: hidden;
+    font-family: poppins;
+}
+
+.about {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.about h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.about-flex{
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: row;
+}
+
+.about1{
+    width: 50%;
+}
+
+.about2{
+    width: 50%;
+}
+
+.events {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.events h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.card{
+    background-color: #042f2e;
+    height: 35rem;
+    width: 23rem;
+    margin: 1rem;
+    border-radius: 25px 25px 10px 25px;
+    padding: 10px;
+    border: #042f2e;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h1{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    font-weight: 300;
+}
+
+.card p{
+    padding: 0px 10px;
+    font-weight: 300;
+    color: white;
+}
+
+.card button{
+    height: 3rem;
+    width: 15rem;
+    border-radius: 10rem;
+    border: 2px solid white;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    align-self: center;
+}
