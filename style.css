@@ -79,3 +79,29 @@ body{
     color: white;
     align-self: center;
 }
+
+.about {
+    text-align: justify; /* Align text in the first part */
+    background-color: #b3ffcc;
+    padding: 20px;
+  }
+
+  .about-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .about1 {
+    width: 48%;
+    padding-left: 20px; /* Adjust the width to leave some space for margin */
+  }
+
+  .about2 {
+    width: 48%; /* Adjust the width to leave some space for margin */
+  }
+
+  .about2 img {
+    width: 100%;
+    height: auto;
+  }
